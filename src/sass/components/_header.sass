@@ -1,0 +1,54 @@
+.header
+    background: #598c40
+    height: 100px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    position: sticky
+    top: 0
+    z-index: 2
+    &_inner
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        .nav
+            display: flex
+            justify-content: space-between
+            align-items: center
+            gap: 185px
+            flex-wrap: wrap
+            .logo h2
+                color: white
+                font-size: 25px
+                font-family: 'Montserrat',serif
+                font-weight: 600
+                cursor: pointer
+            &-button a
+                text-decoration: none
+                color: white
+                font-size: 15px
+                font-family: 'Montserrat',serif
+                font-weight: normal
+                &:hover
+                    color: #b8d6b8
+        .button a
+            text-decoration: none
+            background: #fff
+            height: 49px
+            width: 233px
+            border-radius: 100px
+            color: #578b3e
+            font-size: 15px
+            line-height: 46px
+            font-family: 'Montserrat', sans-serif
+            font-weight: 400
+            float: right
+            border: none
+            display: flex
+            justify-content: center
+            align-items: center
+            &:hover
+                background: linear-gradient(to right, #3b6427 0%, #53853b 100%)
+                color: white
