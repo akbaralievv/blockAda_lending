@@ -18,9 +18,6 @@ function Header() {
             <div className="logo">
               <h2>BlockAda</h2>
             </div>
-            {/* <div className="nav-button">
-              <a href="/">for Chrome</a>
-            </div> */}
           </nav>
           <div className="button">
             <a href="/" onClick={(e) => handleClick(e, true)}>

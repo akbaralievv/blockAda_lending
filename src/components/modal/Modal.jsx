@@ -3,8 +3,8 @@ import styles from './Modal.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import closeIcon from '../../assets/icons/close.svg';
 import { setIsActive, setIsOpenModal, setIsVisible } from '../../redux/slices/isModalSlice';
-import SignIn from '../forms/signIn';
 import SignUp from '../forms/SignUp';
+import SignIn from '../forms/SignIn';
 
 function Modal() {
   const { isActive, isVisible } = useSelector((state) => state.isModalSlice);
