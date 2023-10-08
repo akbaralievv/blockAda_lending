@@ -1,3 +1,5 @@
+import screen from '../assets/images/Screenshot_3.png';
+
 function Home() {
   return (
     <section className="home">
@@ -17,7 +19,7 @@ function Home() {
               </div>
             </div>
             <div className="images">
-              <img src="//cdn.easyadblocker.com/v2/images/image20.png" alt="" />
+              <img src={screen} alt="" />
             </div>
           </div>
         </div>

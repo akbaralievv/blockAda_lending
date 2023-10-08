@@ -12,10 +12,16 @@ function Footer() {
                 <h3>ABOUT</h3>
                 <ul>
                   <li>
-                    <a href="/">Contact Us</a>
+                    <a href="https://t.me/akbaralievv" target="_blanc">
+                      Contact Us
+                    </a>
                   </li>
                   <li>
-                    <a href="/">Privacy Policy</a>
+                    <a
+                      href="https://www.privacypolicies.com/live/9171bf44-a44f-4702-9a1a-2cac9ccdece7"
+                      target="_blanc">
+                      Privacy Policy
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -23,10 +29,7 @@ function Footer() {
                 <h3>PRODUCTS</h3>
                 <ul>
                   <li>
-                    <a href="/">Ad Blocker for Windows</a>
-                  </li>
-                  <li>
-                    <a href="/">Ad Blocker for Chrome</a>
+                    <a href="/">BlockAda for Chrome</a>
                   </li>
                 </ul>
               </li>
@@ -41,7 +44,7 @@ function Footer() {
             </ul>
           </div>
           <div className="copyright">
-            <p>© Easy Ad Blocker, 2020. All right reserved.</p>
+            <p>© BlockAda, 2020. All right reserved.</p>
           </div>
         </div>
       </div>

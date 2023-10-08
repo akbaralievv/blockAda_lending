@@ -33,22 +33,31 @@
                 font-weight: normal
                 &:hover
                     color: #b8d6b8
-        .button a
-            text-decoration: none
-            background: #fff
-            height: 49px
-            width: 233px
-            border-radius: 100px
-            color: #578b3e
-            font-size: 15px
-            line-height: 46px
-            font-family: 'Montserrat', sans-serif
-            font-weight: 400
-            float: right
-            border: none
+        .button
             display: flex
-            justify-content: center
-            align-items: center
-            &:hover
-                background: linear-gradient(to right, #3b6427 0%, #53853b 100%)
-                color: white
+            gap: 30px
+            a
+                text-decoration: none
+                background: #fff
+                height: 49px
+                width: 233px
+                border-radius: 100px
+                color: #578b3e
+                font-size: 15px
+                line-height: 46px
+                font-family: 'Montserrat', sans-serif
+                font-weight: 400
+                float: right
+                border: none
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                    background: linear-gradient(to right, #3b6427 0%, #53853b 100%)
+                    color: white
+                &:last-child
+                    background: linear-gradient(to right, #18320b 0%, #396225 100%)
+                    color: white
+                    &:hover
+                        background: linear-gradient(to right, #3b6427 0%, #53853b 100%)
+                        color: white
