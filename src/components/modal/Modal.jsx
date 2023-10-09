@@ -47,10 +47,10 @@ function Modal() {
           <nav>
             <div className={styles.nav}>
               <a className={isActive ? styles.activeAuth : ''} onClick={() => handleClick(true)}>
-                Войти
+                Sign In
               </a>
               <a className={!isActive ? styles.activeReg : ''} onClick={() => handleClick(false)}>
-                Регистрация
+                Sign Up
               </a>
             </div>
             <hr />

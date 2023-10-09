@@ -21,10 +21,10 @@ function Header() {
           </nav>
           <div className="button">
             <a href="/" onClick={(e) => handleClick(e, true)}>
-              Sign in
+              Sign In
             </a>
             <a href="/" onClick={(e) => handleClick(e, false)}>
-              Sign up
+              Sign Up
             </a>
           </div>
         </div>
